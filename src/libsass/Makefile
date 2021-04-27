@@ -79,8 +79,8 @@ else
 	STATIC_ALL       ?= 0
 	STATIC_LIBGCC    ?= 0
 	STATIC_LIBSTDCPP ?= 0
-	CXXFLAGS += -std=c++0x
-	LDFLAGS  += -std=c++0x
+	CXXFLAGS += -std=c++14
+	LDFLAGS  += -std=c++14
 endif
 
 ifneq ($(SASS_LIBSASS_PATH),)
